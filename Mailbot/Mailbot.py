@@ -39,8 +39,8 @@ if __name__ == "__main__":
     # Set your email credentials and SMTP server details
     smtp_server = 'smtp.strato.de'
     smtp_port = 587  # Change the port accordingly
-    smtp_username = 'student-project@blockchainpresence.net'
-    smtp_password = 'hdlbcDSNHCLNDskmcflOUE1'
+    smtp_username = 'yourEmail'
+    smtp_password = 'yourSecretPassword'
 
     # Email content, utf-8 encoding to also send german "Umlaute"
     with open('email_text.txt', 'r', encoding='utf-8') as file:
